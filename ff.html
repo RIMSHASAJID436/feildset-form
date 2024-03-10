@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <style>
+        p{
+   font-weight: bold;
+}
+div{
+    display: flex;
+}
+        fieldset{
+            width: 40%;
+            border: 2px dotted skyblue;
+            font-family: sans-serif;
+        }
+        legend{
+            color: purple;
+            font-weight: bold;
+          
+        }
+        td{
+            font-weight: bolder;
+        }
+        input{
+            background-color: rgb(186, 225, 241);
+           border: 1px solid rgb(121, 120, 120);
+           
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>User Registration Form</h1>
+    <form action="http://www.example.com/review.php">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table>
+                <tr>
+                    
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" id="name"></td>
+                    
+                </tr>
+                <tr>
+                
+                    <td><label for="email">Email Address:</label></td>
+                    <td><input type="email" id="email"></td>
+              </tr>
+                <tr>
+                    <td><label for="password">
+                    Password:</td>
+                    <td> <input type="password" id="password"></td>
+                </tr>
+                
+                <tr>
+                    <label for="password">
+                        <td>Confirm Password: &nbsp;&nbsp;    </td>
+                        <td>
+                    <input type="text" id="password"></td>
+                </label> </tr>
+                <br>
+                
+            </table>
+        </fieldset><br>
+        <fieldset>
+            <legend>Address Details </legend>
+            <table>
+                <tr>
+                    <label for="number">
+                        <td>Address line one: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td><input type="number" id="number"></td>
+                    </label>
+                </tr>
+                <tr>
+                <label for="number">
+                    <td>Address line two:</td>
+                    <td><input type="number" id="number"></td>
+                </label></tr>
+                <tr>
+                <label for="text">
+                    <td>Twon / City:</td>
+                    <td> <input type="text" id="text"></td>
+                </label></tr>
+                
+                <tr>
+                    <label for="number">
+                        <td>Zip / post code: &nbsp;&nbsp;    </td>
+                        <td>
+                    <input type="number" id="number"></td>
+                </label> </tr>
+                <br>
+                
+            </table>
+        </fieldset>
+        <br>
+        &nbsp;&nbsp;
+        <input type="button" value="Sign Up!">
+    </form>
+    <div>&nbsp; &nbsp; &nbsp;<p><a href="index.html">First Form</a></p> &nbsp; &nbsp; &nbsp;
+        <p> <a href="ff.html">Second Form</a></p> &nbsp; &nbsp; &nbsp;
+        <p><a href="ff4.html">Third Form</a></p> &nbsp; &nbsp; &nbsp;
+        <p><a href="feildset.html">Fourth Form</a></p></div>
+</body>
+
+</html>
